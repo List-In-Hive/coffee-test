@@ -1,0 +1,2 @@
+import Link from "next/link";
+export function Footer(){return <footer className="footer"><div className="container footer-top"><div><Link href="/" className="wordmark">Daily Cup</Link><p>A little pause. A better morning.</p></div><div className="footer-links"><Link href="/menu">Coffee</Link><Link href="/blog">Journal</Link><Link href="/about">Our story</Link></div></div><div className="container footer-bottom">TEST PROJECT · Fictional business · No orders or payments</div></footer>;}

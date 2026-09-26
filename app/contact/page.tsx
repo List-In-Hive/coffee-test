@@ -1,0 +1,1 @@
+export default function Contact(){return <section className="container page-section"><div className="page-intro"><p className="eyebrow">Demonstration only</p><h1>This is a <em>test website.</em></h1><p>No contact details or enquiry form are connected. Return to the admin to try the project’s article and calendar tools.</p></div></section>;}
