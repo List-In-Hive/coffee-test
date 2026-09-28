@@ -11,3 +11,5 @@ Repository: https://github.com/List-In-Hive/coffee-test
 Add this repository manually in the admin panel using its GitHub URL. Review the imported project settings before enabling automatic blog creation. The website must be deployed and its public URL configured before automatic publication can be enabled.
 
 Blog articles live in `content/blog`; images live in `public/images`. No remote deployment is included in this repository setup. Search indexing remains disabled for this test website.
+
+On Netlify, canonical URLs and social metadata automatically use the primary site address supplied by the hosting platform (`URL`). No manual `SITE_URL` is needed. Rebuild after changing the primary domain. Outside Netlify, `SITE_URL` remains an optional override. Preview deployments remain excluded from indexing.
